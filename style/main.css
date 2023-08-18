@@ -1,0 +1,108 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.materia1{
+    width: min-content;
+}
+
+.title1{
+    font-size: 11pt;
+    margin-top: 17px;
+    margin-bottom: 6px;
+}
+
+.contents{
+    margin: 0 0 6px;
+}
+
+.line1{
+    width: 250px;
+    height: 4px;
+    background: rgb(230,34,89);
+    background: linear-gradient(90deg, rgba(230,34,89,1) 0%, rgba(180,75,125,1) 30%, rgba(107,91,163,1) 100%);
+}
+
+.container2{
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.materia2, .materia3{
+    width: min-content;
+}
+
+.line2, .line3{
+    width: 155px;
+    height: 4px;
+}
+
+.line2{
+    background: rgb(2,0,36);
+    background: linear-gradient(267deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.line3{
+    background: rgb(117,199,206);
+    background: linear-gradient(90deg, rgba(117,199,206,1) 0%, rgba(91,188,171,1) 50%, rgba(58,179,138,1) 100%);
+}
+
+.source1, .source2, .source3{
+    color: grey;
+    font-style: italic;
+    font-size: 11pt;
+}
+
+.sources{
+    margin: 8px 0 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_txt{
+    text-align: center;
+    font-size: 11pt;
+}
+
+.titles{
+    margin: 0;
+}
+
+@media screen and (max-width: 600px){
+    
+    header{
+        width: 428px;
+        height: 119px;
+    }
+
+    .image1, .image2, .image3{
+        width: 300px;
+    }
+
+    footer{
+        width: 428px;
+        height: 57px;
+    }
+}
